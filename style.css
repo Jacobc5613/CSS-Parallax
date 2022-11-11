@@ -21,18 +21,18 @@ body,html{
 
 }
 .pimg1{
-	background-image:url("images/image1.jpeg");
+	background-image:url("images/image1.webp");
 	min-height:100%;
 
 }
 
 .pimg2{
-	background-image:url("images/image2.jpeg");
+	background-image:url("images/image2.jpg");
 	min-height:400px;
 }
 
 .pimg3{
-	background-image:url("images/image3.jpeg");
+	background-image:url("images/image3.webp");
 	min-height:400px;
 }
 
@@ -87,6 +87,6 @@ a:hover{
 
 @media(max-width:567pxh){
 	.pimg1, .pimg2, .pimg3{
-		background-attatchment:scroll;
+		background-attachment:scroll;
 	}
 }
